@@ -7,7 +7,6 @@ from langchain.chains import RetrievalQA
 from pinecone import Pinecone
 from langchain_openai import OpenAIEmbeddings
 
-
 # Inicializar Pinecone
 pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
 
